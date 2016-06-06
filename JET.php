@@ -1,21 +1,6 @@
 <!DOCTYPE html>
-<?php
-
-$tekst = $_POST['tekst'];
-htmlspecialchars($tekst);
-
-?>
-
 <HTML>
-<head>
-
-</head>
 <body>
-<p> <?php echo $tekst; ?>
-
-
-
-
-
+<p> <?php echo htmlspecialchars($_POST['tekst']); ?></p>
 </body>
 </html>
