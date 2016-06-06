@@ -7,8 +7,8 @@
 
 <body>
 <?php
-htmlspecialchars($tittel);
-echo $tittel;
+htmlspecialchars($tekst);
+echo $tekst;
 ?> 
 
 <form action="JET.php" method="POST">
